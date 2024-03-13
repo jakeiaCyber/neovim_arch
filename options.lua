@@ -10,12 +10,12 @@ return {
     swapfile = false,
     list = true,
     listchars = {
-      eol = "↲",
-      tab = "» ",
-      space = "·",
-      extends = "›",
-      precedes = "‹",
-      nbsp = "␣",
+      -- eol = "↲",
+      -- tab = "» ",
+      -- space = "·",
+      -- extends = "›",
+      -- precedes = "‹",
+      -- nbsp = "␣",
     },
     conceallevel = 2,
     scrolloff = 999, -- better scrolling: make cursor always in middle
