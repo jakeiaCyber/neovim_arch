@@ -6,7 +6,7 @@
 return {
   "lukas-reineke/headlines.nvim",
   dependencies = "nvim-treesitter/nvim-treesitter",
-  lazy = false,
+  event = "BufRead",
   config = function()
     -- Define custom highlight groups using Vimscript
     vim.cmd [[highlight Headline1 guibg=#295715 guifg=white]]
