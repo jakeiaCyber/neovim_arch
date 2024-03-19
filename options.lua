@@ -22,6 +22,7 @@ return {
     fileencoding = "utf-8",
     cursorline = true,
     updatetime = 300,
+    showtabline = 0,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
