@@ -19,7 +19,9 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "dracula",
+  -- colorscheme = "dracula",
+  -- colorscheme = "github_dark",
+  colorscheme = "gruvbox-baby",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
